@@ -30,6 +30,8 @@ for(const key of map) {
 }
 
 for(const [key , Value] of map) {
-    console.log(key , ";-" , Value);
+    //console.log(key , ";-" , Value);          // Only maps are iterable this way
     
 }
+
+// Not OBJECTS
